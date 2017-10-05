@@ -1,113 +1,4097 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./favicon_paintschainer.ico" sizes="32x32">
+<html lang="en" class=""><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="fb:pages" content="420750671322839">
 
-    <title>PaintsChainer</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-    <!-- Canvas toBlob polyfill -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.6.0/js/canvas-to-blob.min.js"></script>
+                
+        <title>
+                            Virtus.pro
+                    </title>
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="/assets/css/app.min.css?v=0a9379f6bc5fef4baa22aaf450fd8a95">
+        <link rel="stylesheet" href="/assets/vendor/owl.carousel/dist/assets/owl.carousel.min.css?v=e0422f812aba45254cf47f9a3c96504c">
 
-    <!-- jQuery UI -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-    <!-- wColorPicker -->
-    <link rel="stylesheet" href="wPaint/lib/wColorPicker.min.css">
-    <script src="wPaint/lib/wColorPicker.min.js"></script>
+        <!--[if lt IE 9]>
+            <link href="/assets/css/ie8.css?v=3d5ba2a2bc7b7f30511ecb3a8d3ef3d9" rel='stylesheet' />
+            <script src="http://code.jquery.com/jquery-1.8.0.js"></script>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-    <!-- wPaint -->
-    <link rel="stylesheet" href="wPaint/wPaint.min.css">
-    <script src="wPaint/wPaint.min.js"></script>
-    <script src="wPaint/plugins/main/src/wPaint.menu.main.js"></script>
+        
+        <script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" id="topmailru-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script type="text/javascript" async="" src="https://st.top100.ru/top100/top100.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://cdn.playbuzz.com/widget/feed.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://platform.instagram.com/en_US/embeds.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://cdn.playbuzz.com/widget/feed.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://platform.instagram.com/en_US/embeds.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://cdn.playbuzz.com/widget/feed.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://platform.instagram.com/en_US/embeds.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://cdn.playbuzz.com/widget/feed.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://platform.instagram.com/en_US/embeds.js"></script><script src="https://wtrfall.com/widget.js"></script><script src="https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script><script src="https://cdn.playbuzz.com/widget/feed.js"></script><script src="https://platform.twitter.com/widgets.js"></script><script src="https://platform.instagram.com/en_US/embeds.js"></script><script src="https://pagead2.googlesyndication.com/pagead/osd.js"></script><script src="https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&amp;correlator=2504137707414412&amp;output=json_html&amp;callback=googletag.impl.pubads.callbackProxy1&amp;impl=fifs&amp;json_a=1&amp;eid=108809107%2C21060510&amp;sc=1&amp;sfv=1-0-13&amp;iu_parts=64645884%2Cvirtuspro%2Cvirtuspro%3Anews-pages.sidebar-right%2Cvirtuspro%3Aany%3Aheader-background&amp;enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&amp;prev_iu_szs=240x400%2C1x1&amp;prev_scp=lang%3Den%7Clang%3Den&amp;cookie=ID%3Dfc709fcbdf76a995%3AT%3D1507208494%3AS%3DALNI_MYZLJxi1ftyrDHQZuUdk0NcniCPnA&amp;abxe=1&amp;lmt=1507208540&amp;dt=1507208540113&amp;frm=20&amp;biw=1920&amp;bih=949&amp;oid=3&amp;adxs=-9%2C0&amp;adys=-9%2C0&amp;adks=3188766010%2C2498351239&amp;gut=v2&amp;ifi=1&amp;u_tz=120&amp;u_his=18&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_nplug=4&amp;u_nmime=5&amp;u_sd=1&amp;flash=0&amp;url=https%3A%2F%2Fvirtus.pro%2Fen%2F&amp;ref=https%3A%2F%2Fvirtus.pro%2Fpl%2F&amp;dssz=7&amp;icsg=41&amp;mso=1048576&amp;std=0&amp;vrg=153&amp;vis=1&amp;ga_vid=65669815.1507208497&amp;ga_sid=1507208540&amp;ga_hid=247316802"></script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+        <script>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+        </script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_153.js" async=""></script>
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            googletag.cmd.push(function() {
+                googletag.defineSlot('/64645884/virtuspro/virtuspro:news-pages.sidebar-right', [240, 400], 'material-banner-sidebar-right').setTargeting('lang', ['en']).addService(googletag.pubads());
+                googletag.defineSlot('/64645884/virtuspro/virtuspro:any:header-background', [1, 1], 'background-branding').setTargeting('lang', ['en']).addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+        </script>
+    <link rel="prefetch" href="https://securepubads.g.doubleclick.net/static/3p_cookie.html"><style>.pb_p_logo{position:absolute;display:block;width:30px;margin:auto;top:0;left:0;}</style><style>.pb_feed_loading{height:320px;overflow:hidden}.pb_top_content_container{opacity:0}.pb_feed_placeholder_container{position:absolute;top:0;width:100%;height:100%;}.pb_feed_placeholder_container,.pb_feed_placeholder_container *{direction:ltr !important;}.pb_embed_spinner_iframe{position:relative;max-width:640px;width:100%;height:320px;margin:auto;border:0}.pb_feed_placeholder_inner{position:relative;max-width:640px;width:100%;height:100%;margin:auto;}.pb_feed_placeholder_content{width:100%;height:100%;background-color:#f2f2f2;border-radius:5px;}.pb_feed_placeholder_preloader{position:absolute;top:50%;left:50%;width:29px;height:38px;margin-top:-36px;margin-left:-15px;overflow:hidden;box-sizing:border-box;}.pb_ie_fixer{position:absolute;top:50%;left:50%;width:30px;height:38px;margin-top:-36px;margin-left:14px;background-color:#f2f2f2;}.pb_feed_anim_mask{position:absolute;width:30px;top:0;left:0;}.pb_feed_loading_text{position:absolute;font-family:arial !important;font-size:11px !important;color:#aaa;text-align:center;width:100%;top:170px;direction:ltr;}@-webkit-keyframes pb_color_trans{0%{-webkit-transform:translateX(-60px)}34%{-webkit-transform:translateX(-30px)}100%{-webkit-transform:translateX(0)}}@-moz-keyframes pb_color_trans{0%{transform:translateX(-60px)}34%{transform:translateX(-30px)}100%{transform:translateX(0)}}@-ms-keyframes pb_color_trans{0%{transform:translateX(-60px)}34%{transform:translateX(-30px)}100%{transform:translateX(0)}}@keyframes pb_color_trans{0%{transform:translateX(-60px)}34%{transform:translateX(-30px)}100%{transform:translateX(0)}}</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
 
-    <!-- main -->
-    <script src="paints_chainer.js?ver6"></script>
-    <!-- fileend -->
-    <style>
-     .container-fluid, .row-fluid { margin-left: auto; margin-right: auto; }
-     .container-fluid { width: 1066px !important; }
-     .wColorPicker-palettes-holder { white-space: nowrap; } /* wColorPicker workaround for Firefox */
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
+
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
+
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
+
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
+
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
+
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><style type="text/css">.apester-hidden {
+  pointer-events: none;
+  -webkit-animation: apester-hide 1s ease-out forwards;
+  animation: apester-hide 1s ease-out forwards; }
+
+@-webkit-keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+@keyframes apester-hide {
+  from {
+    visibility: visible;
+    opacity: 1; }
+  to {
+    visibility: hidden;
+    opacity: 0; } }
+
+.apester-loading-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1 !important;
+  display: block;
+  background: #FFFFFF; }
+
+.apester-element {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.apester-video-component {
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-layer-fill {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.apester-active {
+  opacity: 1; }
+
+.apester-ready {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-done {
+  opacity: 0;
+  pointer-events: none; }
+
+.apester-layer {
+  display: block;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s ease-out; }
+  .apester-layer.fullscreen {
+    background: rgba(34, 36, 38, 0.97) !important;
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483646 !important;
+    zoom: 1;
+    -webkit-overflow-scrolling: touch !important; }
+
+.apester-video-component {
+  background: black; }
+
+.apester-video-component .video-js {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.apester-fill-content {
+  display: block;
+  width: 1px;
+  min-width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.apester-loading-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: -22px; }
+
+.streamrail {
+  height: 100%;
+  background: black; }
+
+.blobs {
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ee2e3d; }
+
+.blob:nth-child(1) {
+  -webkit-animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-left-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+.blob:nth-child(2) {
+  -webkit-animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+  animation: blob-right-anim cubic-bezier(0.77, 0, 0.175, 1) 2s infinite; }
+
+@-webkit-keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-left-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(80px, 0);
+    transform: scale(0.55, 0.5) translate(80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@keyframes blob-right-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); }
+  33% {
+    -webkit-transform: scale(0.55, 0.5) translate(-80px, 0);
+    transform: scale(0.55, 0.5) translate(-80px, 0); }
+  66% {
+    -webkit-transform: scale(0.8) translate(0, 0);
+    transform: scale(0.8) translate(0, 0); }
+  100% {
+    -webkit-transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0); } }
+
+@-webkit-keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes apester {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  40% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0; }
+  66% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.apester {
+  background: url("https://static.apester.com/svg/sdk-loader.svg") no-repeat center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: calc(50% - 14px);
+  top: calc(50% - 14px); }
+
+.apester svg {
+  height: 100%;
+  width: 100%; }
+
+.apester-companion-container {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.apester-companion {
+  text-align: center;
+  margin: 10px auto; }
+  @media (max-width: 480px) {
+    .apester-companion {
+      margin: 20px auto; } }
+</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script type="text/javascript" async="" src="//wtrfall.com/assets/embed-fe598871d7c347f47df6764f0e415739.js"></script><link rel="stylesheet" href="//wtrfall.com/assets/embed-9bf27257c69c30d161044dd3f85ed135.css"><style type="text/css">.wtf_bc--skin--main-text { color: #000 !important; }.wtf_bc--skin--sec-text { color: rgba(0,0,0,0.3) !important; }.wtf_bc--feed-item.wtf_bc--hot .wtf_bc--feed-item--time.wtf_bc--skin--item-header .wtf_bc--skin--sec-text { color: #FFF !important; }.wtf_bc--skin--link { color: #000 !important; text-decoration: underline; }.wtf_bc--skin--item-header .wtf_bc--skin--link { color: #757575!important; text-decoration: none !important; }.wtf_bc--skin--link:hover,.wtf_bc--skin--item-header .wtf_bc--skin--link:hover { color: #407BDC !important; }.wtf_bc--skin--bg-primary { background: #FFF !important; }.wtf_bc--skin--bg-gray { background: #F1F1F1 !important; }</style><script charset="UTF-8" type="text/javascript" async="" src="https://counter-analytics.esforce.net/public/counter.js"></script><style type="text/css">.fancybox-margin{margin-right:17px;}</style><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/tweet.f3af5d121163eaaef8dac21ae8b98019.js"></script></head>
+    <body class="lang-en">
+    <div class="wrapper">
+        <div id="main-background">
+                                                <!-- /64645884/virtuspro/virtuspro:any:header-background -->
+<div id="background-branding" data-google-query-id="CI3oiKzF2dYCFcFNGAodolYBKA">
+<script>
+googletag.cmd.push(function() { googletag.display('background-branding'); });
+</script>
+<div id="google_ads_iframe_/64645884/virtuspro/virtuspro:any:header-background_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/64645884/virtuspro/virtuspro:any:header-background_0" title="3rd party ad content" name="google_ads_iframe_/64645884/virtuspro/virtuspro:any:header-background_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+                                    </div>
+            <div class="container del-pad-mob wrapper__content">
+                <header id="header" class="header">
+                    <nav class="header__menu">
+                        <div class="header-menu__wrapper">
+                            <div class="logo--mobile">
+                                <a href="/en/">
+                                    <img src="/assets/img/png/logos/logo.png?v=bcc9fe0980b558b2018c7998de2573b5" alt="Virtus.pro">
+                                </a>
+                            </div>
+                            <div class="mobile-lang">
+                                                                                                            <a href="?_lang=ru">RUS</a>
+                                                                                                                                                                                                                    <a href="?_lang=pl">POL</a>
+                                                                                                </div>
+                            <button class="header-menu__button">
+                                <span class="icon-bar icon-bar--top"></span>
+                                <span class="icon-bar icon-bar--middle"></span>
+                                <span class="icon-bar icon-bar--bottom"></span>
+                            </button>
+
+                            <ul class="menu">
+                                                                <li class="menu__item">
+                                    <a href="/en/news">News</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/en/matches">Matches</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/en/team">Team</a>
+                                    <div class="menu-sub">
+                                        <ul>
+                                            <li class="menu-sub__item">
+                                                <a href="/en/awards">Achievments</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu__item hidden--mobile">
+                                    <a href="/en/shop" target="_blank">Store</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/en/video">Video</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/en/partners">Partners</a>
+                                </li>
+                                                                <li class="menu__item">
+                                    <a href="/en/contacts">Contacts</a>
+                                </li>
+                                <li class="menu__item menu__item--lang">
+                                                                                                                                                                                                    <a href="?_lang=en">ENG</a>
+                                                                                                                                                                                            <div class="menu-sub">
+                                        <ul>
+                                                                                                                                                <li class="menu-sub__item">
+                                                        <a href="?_lang=ru">RUS</a>
+                                                    </li>
+                                                                                                                                                                                                                                                                                            <li class="menu-sub__item">
+                                                        <a href="?_lang=pl">POL</a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <section class="header__main">
+                        <article class="logo">
+                            <a href="/en/">
+                                <img src="/assets/img/png/logos/logo.png?v=bcc9fe0980b558b2018c7998de2573b5" alt="Virtus.pro">
+                            </a>
+                        </article>
+
+                        <article class="partners">
+    <ul class="partners__list">
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=g2a_general&amp;utm_medium=header&amp;goto=https://www.g2a.com/r/in-game-items-vp" target="_blank">
+                <span class="original" style="background-image: url('https://svirtus.cdnvideo.ru/bisoqFGHWolYvGQwanDQ0BcjGXA=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/2c/2c239c7fc2a7c661b90d133f6b68adf9.png')"></span>
+                <img class="bw" src="https://svirtus.cdnvideo.ru/qQjlpsaUYnAP-jjh22YD78MBwW0=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/73/7308cfb98f5ba0ec0800875af687924d.png" alt="G2A.COM">
+                            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=mediamarkt_general&amp;utm_medium=header&amp;goto=https://ad.doubleclick.net/ddm/trackclk/N39402.3009020EPICENTER/B20051405.200862110;dc_trk_aid=400778201;dc_trk_cid=90521675;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=" target="_blank">
+                <span class="original" style="background-image: url('https://svirtus.cdnvideo.ru/-b7hHn8xH29Z-_4uBn7mu-dL9NM=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/0d/0d719e70916f8a079787a49edf0da589.png')"></span>
+                <img class="bw" src="https://svirtus.cdnvideo.ru/iXYKRvMG9NWwuUXGzIct7i8xIuM=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/12/126cfec9b19107b946dc220d6adde646.png" alt="MediaMarkt">
+                            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=adrenaline_general&amp;utm_medium=header&amp;goto=https://adrenalinerush.ru/" target="_blank">
+                <span class="original" style="background-image: url('https://svirtus.cdnvideo.ru/1FrCCNujoKSzIc49ViiF6qCkivE=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/43/43fc95194cabae8d9b32d3f234523564.png')"></span>
+                <img class="bw" src="https://svirtus.cdnvideo.ru/TwlJAIT3WVt-Cc69OzooKKiwRrE=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/4e/4e071e22454d85ff2a7baaea8c2b6a5c.png" alt="Adrenaline Rush">
+                            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=mrcat_general&amp;utm_medium=header&amp;goto=http://mrcat.com/" target="_blank">
+                <span class="original" style="background-image: url('https://svirtus.cdnvideo.ru/9cHnUfTFR7W0gWyjpvXkxewyd7Y=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/06/06a45011c4f4f031a9030514e8c8b042.png')"></span>
+                <img class="bw" src="https://svirtus.cdnvideo.ru/yuU8B3fYO10_wl92Pa29s7WGE68=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/71/71f5b40742570a39e71204556d7b4aae.png" alt="Mr.Cat">
+                            </a>
+        </li>
+                <li class="partners__item">
+            <a href="http://www.fragstore.ru/" target="_blank">
+                <span class="original" style="background-image: url('https://svirtus.cdnvideo.ru/BoJsa4_aQ766ybyUUZw8SKD73BY=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/c9/c98e262ecc9219c2a081244d475f16fa.png')"></span>
+                <img class="bw" src="https://svirtus.cdnvideo.ru/pnFAqLLge2QYtDOMm-90MPfMi7o=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/ec/eca187830b3273afbfc2ecb0165383f7.png" alt="Fragstore">
+                            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://www.twitch.tv/" target="_blank">
+                <span class="original" style="background-image: url('https://svirtus.cdnvideo.ru/Aj65tgycJpPxBNhRVGvn9eg4iVw=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/50/50a4c01f16cee320f70b50b402d23c56.png')"></span>
+                <img class="bw" src="https://svirtus.cdnvideo.ru/53oAs5DYS8Z0x18Gky2MwDgC114=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/8b/8bd92b1b10f7aa7b6fd31b4467af759e.png" alt="Twitch">
+                            </a>
+        </li>
+            </ul>
+</article>
+
+
+                    </section>
+                    <footer class="header__footer">
+                        <ul class="rubricator">
+        <li class="rubricator__item">
+        <a href="/en/materials/tag/475">#Dota2</a>
+    </li>
+        <li class="rubricator__item">
+        <a href="/en/materials/tag/474">#CS:GO</a>
+    </li>
+        <li class="rubricator__item">
+        <a href="/en/materials/tag/521">#Paladins</a>
+    </li>
+        <li class="rubricator__item">
+        <a href="/en/materials/tag/516">#Quake Champions</a>
+    </li>
+        <li class="rubricator__item">
+        <a href="/en/materials/tag/476">#LeagueOfLegends</a>
+    </li>
+        <li class="rubricator__item">
+        <a href="/en/materials/tag/477">#Hearthstone</a>
+    </li>
+    </ul>
+                    </footer>
+                </header>
+
+                <main id="content">
+                        <div class="row del-mar-mob">
+        <section id="main_content" class="col-sm-8 del-pad-mob min-pad-right">
+                            <article class="slider-important-news panel">
+                    <div id="slides" class="slider carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                                                            <a class="item" href="/en/articles/solo-city">
+                                    <img src="https://svirtus.cdnvideo.ru/BlOQswW1bj_90GocH1Xxbj7xNLk=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/16/16edf408a8651882ae82a9b6095d0739.png?m=0c5fe2c79ff44bf0730898b31018b59a" alt="solo-city">
+                                    <div class="slider__caption">
+                                        <h3>solo-city</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item" href="/en/articles/vp-uk-germany">
+                                    <img src="https://svirtus.cdnvideo.ru/c0d9ZvXP9A57Kcnom2sU9TzWC-Y=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/e1/e19733c5cca6e40b7cdcea7f37d768d2.png?m=5670b5c83551a464a78125bb1b5d4c62" alt="Virtus.pro was ranked as one of most popular esports team in UK and Germany">
+                                    <div class="slider__caption">
+                                        <h3>Virtus.pro was ranked as one of most popular esports team in UK and Germany</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item active" href="/en/articles/if-someone-told-me-that-10-years-ago-i-d-think-they-re-nuts-and-tell-them-dude-see-a-doctor-solo-on-a-film-about-dota-2">
+                                    <img src="https://svirtus.cdnvideo.ru/mQ5HRFbczYykh78fC9a2M2Dp38E=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/d9/d9c01ec73365b1efbf0ef5bdf40993d9.png?m=8286ebc01548b7036e29999411b15d41" alt="&quot;If someone told me that 10 years ago, I'd think they're nuts and tell them: &quot;Dude, see a doctor!&quot; Solo — on a film about Dota 2">
+                                    <div class="slider__caption">
+                                        <h3>"If someone told me that 10 years ago, I'd think they're nuts and tell them: "Dude, see a doctor!" Solo — on a film about Dota 2</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item" href="/en/articles/when-ramzes-started-dota-2">
+                                    <img src="https://svirtus.cdnvideo.ru/OnNAo-GGj--KzN-TmNRRdqZZ5Ic=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/e0/e0ab90305546c3ab0971382eee62cee9.png?m=382735ddf4018fecb9c891c105ba0396" alt="When Ramzes started Dota 2?">
+                                    <div class="slider__caption">
+                                        <h3>When Ramzes started Dota 2?</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item" href="/en/articles/virtus--pro--vs-team--empire-live-stream">
+                                    <img src="https://svirtus.cdnvideo.ru/sxUPNjLVHQsbyHroAfZ81uZ91Rk=/0x0:960x540/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/09/09eb14536d0911684497854e4c6bf6bc.png?m=6591fc88e3b66a36b9365791f27bccdb" alt="Virtus.pro defeat Team Empire at DreamLeague S8 Qualifier">
+                                    <div class="slider__caption">
+                                        <h3>Virtus.pro defeat Team Empire at DreamLeague S8 Qualifier</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item" href="/en/articles/virtus-pro-dota-2-antihype">
+                                    <img src="https://svirtus.cdnvideo.ru/Y0IF7MwMx0wrr0cQ2ZSDplAXsNs=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/5e/5e2471f9f0c6d356363e82749ecfbb05.png?m=d9f83d91d176cc588625233b5042f381" alt="Russian players from Virtus.pro, Na'Vi and Team Spirit will compete under the #antihype tag">
+                                    <div class="slider__caption">
+                                        <h3>Russian players from Virtus.pro, Na'Vi and Team Spirit will compete under the #antihype tag</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item" href="/en/articles/virtus.pro-changed-their-in-game-leader-what-are-this-decisions-benefits">
+                                    <img src="https://svirtus.cdnvideo.ru/Idb_ffHMJNJLTKq5fQPYX-4PjEQ=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/78/78a941c4ccab018dcb8b3e250bd9a142.png?m=3dc8fd4c802abb6af1346bdf17f3d442" alt="Virtus.pro changed in-game leader. What are this decision's benefits?">
+                                    <div class="slider__caption">
+                                        <h3>Virtus.pro changed in-game leader. What are this decision's benefits?</h3>
+                                    </div>
+                                </a>
+                                                            <a class="item" href="/en/articles/i-think-the-next-world-championship-will-be-worth-usd1-million-virtus-pro-paladins-team-captain-s-interview">
+                                    <img src="https://svirtus.cdnvideo.ru/8VEnEvaCbtIYPjjAyAfoP8M7kQc=/0x0:1280x720/730x396/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/65/65c4034af5ea5c80328f47c5244f28d0.png?m=d81b2cc1cc8516a22a09ff3929c41b14" alt="“I think the next World Championship will be worth $1 million.&quot; VP Paladins team captain's interview">
+                                    <div class="slider__caption">
+                                        <h3>“I think the next World Championship will be worth $1 million." VP Paladins team captain's interview</h3>
+                                    </div>
+                                </a>
+                                                    </div>
+                        <a class="slidesjs-navigation slidesjs-previous" href="#slides" data-slide="prev"></a>
+                        <a class="slidesjs-navigation slidesjs-next" href="#slides" data-slide="next"></a>
+                    </div>
+                </article>
+            
+            
+<div class="sys-matches-widget inited" data-url-pattern="/en/match/main-widget/__status__/__team__" data-current-status="future" data-current-team="0">
+    <article class="matchtiker panel">
+        <div class="matchtiker__wrapper">
+            <h2 class="bg-header"><a href="/en/matches">Matches</a></h2>
+            <header class="matchtiker__header clearfix">
+                <div class="matchtiker__filter-game">
+                    <ul class="filter-game clearfix">
+                        <li class="filter-game__item">
+                            <button data-filter-type="team" class="filter-game__button filter-game__button--active" data-filter="0"><span class="all">All</span></button>
+                        </li>
+
+                                                    <li class="filter-game__item">
+                                <button data-filter-type="team" class="filter-game__button" data-filter="72719">
+                                    <span class="csgo">CS:GO</span>
+                                </button>
+                            </li>
+                                                    <li class="filter-game__item">
+                                <button data-filter-type="team" class="filter-game__button" data-filter="119025">
+                                    <span class="dota2">Dota2</span>
+                                </button>
+                            </li>
+                                                    <li class="filter-game__item">
+                                <button data-filter-type="team" class="filter-game__button" data-filter="92090">
+                                    <span class="lol">LoL</span>
+                                </button>
+                            </li>
+                                                    <li class="filter-game__item">
+                                <button data-filter-type="team" class="filter-game__button" data-filter="161166">
+                                    <span class="hs">HS</span>
+                                </button>
+                            </li>
+                                                    <li class="filter-game__item">
+                                <button data-filter-type="team" class="filter-game__button" data-filter="221588">
+                                    <span class="quake">Quake</span>
+                                </button>
+                            </li>
+                                            </ul>
+                </div>
+                <div class="matchtiker__category">
+                    <ul class="category clearfix">
+                        <li class="category__item">
+                            <button data-filter-type="status" class="category__button" data-filter="past">
+                                Past
+                            </button>
+                        </li>
+                        <li class="category__item">
+                            <button data-filter-type="status" class="category__button" data-filter="active">
+                                Live
+                            </button>
+                        </li>
+                        <li class="category__item">
+                            <button data-filter-type="status" class="category__button category__button--active" data-filter="future">
+                                Upcoming
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <section class="matchtiker__content">
+                <div id="time2">
+                    
+                    <div class="matchtiker__carousel">
+                        <ul class="carousel__match owl-carousel clearfix owl-loaded owl-drag">
+                                                            
+                                                            
+                                                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 456px;"><div class="owl-item active" style="width: 227.667px;"><li class="carousel__item matchtiker__item">
+                                    <a href="/en/match/233173">
+                                        <header class="matchtiker__title">
+                                            <h5 class="icon-game icon-game--dota2">
+                                                <span class="text-overflow">DreamLeague Season 8. Europe &amp; CIS Qualifier | Group Stage | Virtus.pro G2A VS OG</span>
+                                                <span class="small">Group Stage</span>
+                                            </h5>
+                                        </header>
+                                        <section class="matchtiker__info clearfix">
+                                            <div class="matchtiker__command-logo matchtiker__command-logo--left">
+                                                <img src="https://svirtus.cdnvideo.ru/QFpcl_95JXoqkqVs3O_D-U5_YBE=/0x0:280x280/41x41/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esports-core-media/2a/2aef4da134681ed58b328ea521d597e0.png?m=e3bdc884313fd3012fd1e0bbf438666c" alt="Virtus.pro G2A">
+                                                <h6>Virtus.pro G2A</h6>
+                                            </div>
+
+                                            <div class="matchtiker__date-time">
+                                                                                                    <time class="date">05 October</time>
+                                                    <time class="time">9:00 PM</time>
+                                                                                            </div>
+
+                                            <div class="matchtiker__command-logo matchtiker__command-logo--right">
+                                                <img src="https://svirtus.cdnvideo.ru/1TeoytBDQk697i4VjfVq92F0_10=/0x0:900x900/41x41/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esports-core-media/be/be7c5694a810170733cca0fb65d376af.png?m=7acafce4a99beab40a350e47bae03bac" alt="OG">
+                                                <h6>OG</h6>
+                                            </div>
+                                        </section>
+
+                                                                            </a>
+                                </li></div><div class="owl-item active" style="width: 227.667px;"><li class="carousel__item matchtiker__item">
+                                    <a href="/en/match/233178">
+                                        <header class="matchtiker__title">
+                                            <h5 class="icon-game icon-game--dota2">
+                                                <span class="text-overflow">DreamLeague Season 8. Europe &amp; CIS Qualifier | Group Stage | Virtus.pro G2A VS Vega Squadron</span>
+                                                <span class="small">Group Stage</span>
+                                            </h5>
+                                        </header>
+                                        <section class="matchtiker__info clearfix">
+                                            <div class="matchtiker__command-logo matchtiker__command-logo--left">
+                                                <img src="https://svirtus.cdnvideo.ru/QFpcl_95JXoqkqVs3O_D-U5_YBE=/0x0:280x280/41x41/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esports-core-media/2a/2aef4da134681ed58b328ea521d597e0.png?m=e3bdc884313fd3012fd1e0bbf438666c" alt="Virtus.pro G2A">
+                                                <h6>Virtus.pro G2A</h6>
+                                            </div>
+
+                                            <div class="matchtiker__date-time">
+                                                                                                    <time class="date">09 October</time>
+                                                    <time class="time">9:00 PM</time>
+                                                                                            </div>
+
+                                            <div class="matchtiker__command-logo matchtiker__command-logo--right">
+                                                <img src="https://svirtus.cdnvideo.ru/1jponsoKpKGCQgLTb0xSWig5j-E=/0x0:1203x1245/41x41/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esports-core-media/6b/6b65440d83c86f7cfc3247c50972f76f.png?m=bcb604e4a2c52aa9398cb62efa5765ec" alt="Vega Squadron">
+                                                <h6>Vega Squadron</h6>
+                                            </div>
+                                        </section>
+
+                                                                            </a>
+                                </li></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots disabled"><div class="owl-dot active"><span></span></div></div></ul>
+                    </div>
+                </div>
+            </section>
+                    </div>
+    </article>
+</div>
+
+            
+                            <article class="banner panel">
+                    <!--AdFox START-->
+<!--esforce-->
+<!--Площадка: virtus.pro / * / *-->
+<!--Тип баннера: 730х200-->
+<!--Расположение: <середина страницы>-->
+<script type="text/javascript">
+<!--
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 4294967295 ) + 1; }
+if (typeof(document.referrer) != 'undefined') {
+    if (typeof(afReferrer) == 'undefined') {
+        afReferrer = encodeURIComponent(document.referrer);
+    }
+} else {
+    afReferrer = '';
+}
+var addate = new Date(); 
+document.write('<scr' + 'ipt type="text/javascript" src="//ads.adfox.ru/251910/prepareCode?pp=h&amp;ps=ckzp&amp;p2=fmyy&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;jsrandom=' + Math.random() + '"><\/scr' + 'ipt>');
+// -->
+</script><script type="text/javascript" src="//ads.adfox.ru/251910/prepareCode?pp=h&amp;ps=ckzp&amp;p2=fmyy&amp;pr=3362820746&amp;pt=b&amp;pd=5&amp;pw=4&amp;pv=15&amp;prr=https%3A%2F%2Fvirtus.pro%2Fpl%2F&amp;jsrandom=0.9315171027706688"></script>
+<!--AdFox END-->
+
+                </article>
+                        <article class="news sys-index-page-material-container">
+                <h2 class="mobile bg-header"><a href="/en/news">News</a></h2>
+
+                                    <ul class="news sys-list-container">
+        
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/solo-city">
+                                    <img src="https://svirtus.cdnvideo.ru/wje5VAL5ZLr5wgVLnduL-DkWTcE=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/90/909c01202af4b917cfc39f18e00ea3d0.png?m=0c5fe2c79ff44bf0730898b31018b59a" alt="solo-city">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/solo-city">solo-city</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/solo-city"><p>Алексей&nbsp;«Solo» Березин – о том, в какой стране хотел бы жить, если бы VP предложили квалификации в другом регионе.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/5/17</time>
+                    <time>2:09 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/vp-uk-germany">
+                                    <img src="https://svirtus.cdnvideo.ru/mEspkPWAKvAc1lja9h-sOs68AN4=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/e8/e88d8fd8b16b8786232836ccd1abcb3e.png?m=5670b5c83551a464a78125bb1b5d4c62" alt="Virtus.pro was ranked as one of most popular esports team in UK and Germany">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/vp-uk-germany">Virtus.pro was ranked as one of most popular esports team in UK and Germany</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/474">#CS:GO</a>
+                            </li>
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/vp-uk-germany"><p>VP is the only CIS representative.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/5/17</time>
+                    <time>12:15 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/if-someone-told-me-that-10-years-ago-i-d-think-they-re-nuts-and-tell-them-dude-see-a-doctor-solo-on-a-film-about-dota-2">
+                                    <img src="https://svirtus.cdnvideo.ru/yDgLHO2YS2EwC_lexqwa5Bo99bs=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/8e/8e66317361600579e72f3fbf3e6a9850.png?m=8286ebc01548b7036e29999411b15d41" alt="&quot;If someone told me that 10 years ago, I'd think they're nuts and tell them: &quot;Dude, see a doctor!&quot; Solo — on a film about Dota 2">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/if-someone-told-me-that-10-years-ago-i-d-think-they-re-nuts-and-tell-them-dude-see-a-doctor-solo-on-a-film-about-dota-2">"If someone told me that 10 years ago, I'd think they're nuts and tell them: "Dude, see a doctor!" Solo — on a film about Dota 2</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/if-someone-told-me-that-10-years-ago-i-d-think-they-re-nuts-and-tell-them-dude-see-a-doctor-solo-on-a-film-about-dota-2"><p>Alexei "Solo" Berezin on the new point system, RAMZES in the pick phase and a new patch from Valve.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/5/17</time>
+                    <time>12:13 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+            
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/when-ramzes-started-dota-2">
+                                    <img src="https://svirtus.cdnvideo.ru/K3LvEyk6agnRp_yp5s7fQMhT9P0=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/18/18ccec118f2948bb2d16155e5a259cd2.png?m=382735ddf4018fecb9c891c105ba0396" alt="When Ramzes started Dota 2?">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/when-ramzes-started-dota-2">When Ramzes started Dota 2?</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/when-ramzes-started-dota-2"><p>The funniest video of the day!</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/4/17</time>
+                    <time>12:12 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/virtus--pro--vs-team--empire-live-stream">
+                                    <img src="https://svirtus.cdnvideo.ru/ZeEG9Tu0b1TCt2F2rkZYRD5hGKk=/0x0:960x540/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/6f/6f34e4337ab9e5dcf7e616be935e9d91.png?m=6591fc88e3b66a36b9365791f27bccdb" alt="Virtus.pro defeat Team Empire at DreamLeague S8 Qualifier">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/virtus--pro--vs-team--empire-live-stream">Virtus.pro defeat Team Empire at DreamLeague S8 Qualifier</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/virtus--pro--vs-team--empire-live-stream"><p>Confident victory in the best-of-2!</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/3/17</time>
+                    <time>9:00 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/virtus-pro-dota-2-antihype">
+                                    <img src="https://svirtus.cdnvideo.ru/kYEWL8OnzND_eTljo4T0qMRx7SM=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/e0/e046c76a6090b680eb1d68e2b4fc48c1.png?m=d9f83d91d176cc588625233b5042f381" alt="Russian players from Virtus.pro, Na'Vi and Team Spirit will compete under the #antihype tag">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/virtus-pro-dota-2-antihype">Russian players from Virtus.pro, Na'Vi and Team Spirit will compete under the #antihype tag</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/virtus-pro-dota-2-antihype"><p>Except VP players Vladimir "RodjER" Nikogosyan (NaVi) and Igor "iLTW" Filatov (Team Spirit) have joined "AntiHype" ranks.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/3/17</time>
+                    <time>4:58 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/virtus.pro-changed-their-in-game-leader-what-are-this-decisions-benefits">
+                                    <img src="https://svirtus.cdnvideo.ru/dPNjs090F3r3YuqHU_kP4spqv5s=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/fb/fbbc665d171b3bcf8abad17cef3d7879.png?m=3dc8fd4c802abb6af1346bdf17f3d442" alt="Virtus.pro changed in-game leader. What are this decision's benefits?">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/virtus.pro-changed-their-in-game-leader-what-are-this-decisions-benefits">Virtus.pro changed in-game leader. What are this decision's benefits?</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/474">#CS:GO</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/virtus.pro-changed-their-in-game-leader-what-are-this-decisions-benefits"><p>Several important points on the team's future.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/3/17</time>
+                    <time>11:00 AM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/virtus.pro-ecs-season">
+                                    <img src="https://svirtus.cdnvideo.ru/ByRPjsggS-AQ04rnzPj1x_s5bfc=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/2d/2da16569ebf636c483a65963857bee01.jpg?m=8c7c55b3efd59c18542d24ecce6e737e" alt="Every Virtus.pro player makes a 4K in one match">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/virtus.pro-ecs-season">Every Virtus.pro player makes a 4K in one match</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/474">#CS:GO</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/virtus.pro-ecs-season"><p>Poles carried in the match against Space Soldiers.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/2/17</time>
+                    <time>12:45 AM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/av3k-and-cypher-are-going-to-attend-dreamhack-winter-2017">
+                                    <img src="https://svirtus.cdnvideo.ru/27FteiHXKT9JUpctRPSbvqMjdH4=/0x0:960x540/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/32/32bd57bba02c89a8fe6d031573e8f469.jpg?m=14469f5ea819149b80efcea8dd62eb1e" alt="Av3k and Cypher will perform on DreamHack Winter 2017">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/av3k-and-cypher-are-going-to-attend-dreamhack-winter-2017">Av3k and Cypher will perform on DreamHack Winter 2017</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/516">#Quake Champions</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/av3k-and-cypher-are-going-to-attend-dreamhack-winter-2017"><p>The tournament will take place in Jönköping on December 1–3.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>10/1/17</time>
+                    <time>9:09 PM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/i-think-the-next-world-championship-will-be-worth-usd1-million-virtus-pro-paladins-team-captain-s-interview">
+                                    <img src="https://svirtus.cdnvideo.ru/Ppp_QjjzBZR52O0Hsl4zM0E2C_s=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/46/460986508cfa11539d04e3ae8aef0632.png?m=d81b2cc1cc8516a22a09ff3929c41b14" alt="“I think the next World Championship will be worth $1 million.&quot; VP Paladins team captain's interview">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/i-think-the-next-world-championship-will-be-worth-usd1-million-virtus-pro-paladins-team-captain-s-interview">“I think the next World Championship will be worth $1 million." VP Paladins team captain's interview</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/521">#Paladins</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/i-think-the-next-world-championship-will-be-worth-usd1-million-virtus-pro-paladins-team-captain-s-interview"><p>Lev "eLvenpath" Strokov shares some insight on what Virtus.pro means for him, why his Norwegian teammate got his contract delivered via carrier pigeon and how he rooted for VP during the TI7.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>9/30/17</time>
+                    <time>11:16 AM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/how-to-strike-a-pose-lil-answers">
+                                    <img src="https://svirtus.cdnvideo.ru/4bNFMkYaGszFH3mrdjpxHI-ZMz8=/0x0:1280x720/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/25/25eac23383ff6862dbd4e45b7b17be40.png?m=365c3c1cca6069a9155219370348a0a9" alt="How to strike a pose? Lil answers">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/how-to-strike-a-pose-lil-answers">How to strike a pose? Lil answers</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/475">#Dota2</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/how-to-strike-a-pose-lil-answers"><p>The most atmospheric video of the day.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>9/30/17</time>
+                    <time>1:00 AM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+    
+    <li class="news__item post">
+        <div class="post__preview">
+            <a href="/en/articles/virtus-pro-defeats-space-soldiers-and-will-play-in-the-ecs-season-4-eu">
+                                    <img src="https://svirtus.cdnvideo.ru/vX2wWAQoMJMIBE2S5i47YhZJee8=/0x0:960x540/270x152/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/ba/baf48886d5e3cd4361910b941879aaa1.jpg?m=e18d8d752767383f1c6c2808c801c9a1" alt="Virtus.pro defeats Space Soldiers and will play in the ECS Season 4 EU">
+                            </a>
+        </div>
+        <div class="post__body">
+            <header class="post__title">
+                <h3><a href="/en/articles/virtus-pro-defeats-space-soldiers-and-will-play-in-the-ecs-season-4-eu">Virtus.pro defeats Space Soldiers and will play in the ECS Season 4 EU</a></h3>
+                <div class="post__hashtags">
+                    <ul class="hashtags clearfix">
+                                                    <li class="hashtags__item">
+                                <a href="/en/materials/tag/474">#CS:GO</a>
+                            </li>
+                                            </ul>
+                </div>
+            </header>
+            <section class="post__description">
+                <a href="/en/articles/virtus-pro-defeats-space-soldiers-and-will-play-in-the-ecs-season-4-eu"><p>A difficult but important victory.</p></a>
+            </section>
+            <footer class="post__info clearfix">
+                <div class="post__time">
+                    <time>9/30/17</time>
+                    <time>12:54 AM</time>
+                </div>
+            </footer>
+        </div>
+    </li>
+
+</ul>
+
+
+<a href="#" data-list-href="/en/materials/list-widget/2/12/1/0/0/0/0" class="panel panel--link sys-list-show-more-button">
+    <span class="link-more">More</span>
+</a>
+
+                            </article>
+        </section>
+        <aside id="aside_content" class="col-sm-4 del-pad-left del-pad-mob">
+            <div class="sys-index-page-side-misc">
+                                    
+    <article class="translation-mini panel">
+        <h2>Streams</h2>
+        <ul class="translation-mini__list">
+                            <li class="translation-mini__item">
+                    <a href="/en/stream/lil" style="background-image: url('https://svirtus.cdnvideo.ru/lgkAFjgErpziIrtnLS5_fakadyw=/0x0:371x62/371x62/https://s3.eu-central-1.amazonaws.com/esforce-media/f1/f18990425da42ae98b6342a6d55d5563.jpg?m=cfd7c86b18e5a291cfdffc6ec2dc8062')">
+                        <div class="translation-mini__game-logo">
+                            <i class="game-logo game-logo--dota2"></i>
+                        </div>
+                        <div class="translation-mini__description">
+
+                                                            <p>Lil</p>
+                            
+                            <p><span class="translation-mini__live">live</span> <span class="translation-mini__count-views">1,593</span></p>
+                        </div>
+                    </a>
+                </li>
+                    </ul>
+    </article>
+
+                                
+<article class="socials panel">
+    <div class="socials__wrapper">
+        <h2>Social media</h2>
+        <ul class="social social--white">
+                        <li class="social__item social__item--in">
+                <a href="https://www.instagram.com/virtus.pro" target="_blank"></a>
+            </li>
+            <li class="social__item social__item--yt">
+                <a href="https://www.youtube.com/c/TeamVirtusproOfficial" target="_blank"></a>
+            </li>
+            <li class="social__item social__item--fb">
+                <a href="https://www.facebook.com/www.virtus.pro/" target="_blank"></a>
+            </li>
+            <li class="social__item social__item--tw">
+                <a href="https://twitter.com/Virtuspro" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+</article>
+            </div>
+            <div class="sys-index-page-pulse-container">
+                                    
+    <div class="pulse-mini">
+        <div class="panel">
+            <h2><a href="/en/pulse">Pulse <i class="icon-pulse"></i></a></h2>
+        </div>
+        <ul id="pulse_content" class="pulse sys-list-container" style="height: 2494px;">
+                                            
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>4:20 PM</time>
+                    <time>10/4/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-0" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="915582390453641222"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>10:20 AM</time>
+                    <time>10/4/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-1" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="915369114268573701"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--instagram">
+
+            <header class="pulse__header">
+                <a href="https://www.instagram.com/pashaBiceps/" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>2:22 PM</time>
+                    <time>10/3/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/BZyNkfOF-W4/embed/captioned/?cr=1&amp;v=7&amp;wp=282#%7B%22ci%22%3A0%2C%22os%22%3A953.9750000000001%7D" allowtransparency="true" frameborder="0" height="438" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); margin: 1px 1px 12px; max-width: 658px; width: calc(100% - 2px); border-radius: 4px; box-shadow: none; display: block; padding: 0px;"></iframe>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--instagram">
+
+            <header class="pulse__header">
+                <a href="" class="pulse__name" target="_blank">Lil</a>
+                <div class="pulse__date">
+                    <time>3:55 PM</time>
+                    <time>10/2/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="#" data-href="/en/pulse/modal/1427" title="lil lil lil"><img src="https://svirtus.cdnvideo.ru/Lsv_KZQUoWCWc1iMkeuC8zavOok=/0x0:1066x1066/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/2c/2c20d47e7caeea81a7dc9328d8b871ca.jpg?m=dd08f2b44f57a633244079e2642327d3" alt="lil lil lil"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/cypherrrino" class="pulse__name" target="_blank">Cypher</a>
+                <div class="pulse__date">
+                    <time>4:18 PM</time>
+                    <time>10/1/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="https://twitter.com/cypherrrino" data-href="/en/pulse/modal/1424" title="team"><img src="https://svirtus.cdnvideo.ru/wAoA4Apa1-T7YisaY2uAipo8IrE=/0x0:606x450/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/61/6111c80452cdeac9a43e8d1249418993.jpg?m=4b26ef308800aef2a8c139abb6bff7ed" alt="team"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--instagram">
+
+            <header class="pulse__header">
+                <a href="https://www.instagram.com/pashaBiceps/" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>4:22 PM</time>
+                    <time>9/30/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><iframe class="instagram-media instagram-media-rendered" id="instagram-embed-1" src="https://www.instagram.com/p/BZqafhrlINR/embed/captioned/?cr=1&amp;v=7&amp;wp=282#%7B%22ci%22%3A1%2C%22os%22%3A955.9350000000001%7D" allowtransparency="true" frameborder="0" height="438" data-instgrm-payload-id="instagram-media-payload-1" scrolling="no" style="background: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); margin: 1px 1px 12px; max-width: 658px; width: calc(100% - 2px); border-radius: 4px; box-shadow: none; display: block; padding: 0px;"></iframe>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>10:30 PM</time>
+                    <time>9/29/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-2" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="913899158599274498"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>7:04 PM</time>
+                    <time>9/28/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="https://twitter.com/paszabiceps" data-href="/en/pulse/modal/1415" title="pash"><img src="https://svirtus.cdnvideo.ru/HOvjzJrrPmg6grix2bYIrx93pU4=/0x0:1000x667/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/10/10de47a9e975383dcbb45df006ff82a9.jpg?m=b749ed1726fe973c8c1e17d7b181444a" alt="pash"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="" class="pulse__name" target="_blank">Naiman</a>
+                <div class="pulse__date">
+                    <time>4:27 PM</time>
+                    <time>9/28/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-3" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="913402092995465217"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>4:21 PM</time>
+                    <time>9/27/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-4" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="913155394696105985"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--instagram">
+
+            <header class="pulse__header">
+                <a href="" class="pulse__name" target="_blank">Lil</a>
+                <div class="pulse__date">
+                    <time>3:25 PM</time>
+                    <time>9/26/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="#" data-href="/en/pulse/modal/1406" title="(Cyber)Athlete"><img src="https://svirtus.cdnvideo.ru/GtJnwirz4SK-5Y55c-HQLxguW-M=/0x0:1080x1080/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/e4/e4efe540402265b8b8904fdfb154fc56.jpeg?m=0c637981c967bcab00f2f3d41cd95400" alt="(Cyber)Athlete"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/cypherrrino" class="pulse__name" target="_blank">Cypher</a>
+                <div class="pulse__date">
+                    <time>3:38 PM</time>
+                    <time>9/25/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-5" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="912243365642727424"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/Noone_dota" class="pulse__name" target="_blank">No[o]ne</a>
+                <div class="pulse__date">
+                    <time>7:38 PM</time>
+                    <time>9/24/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-6" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="912007521728163841"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--facebook">
+
+            <header class="pulse__header">
+                <a href="https://www.facebook.com/G5.pasha" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>11:31 PM</time>
+                    <time>9/23/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p>I don't believe in miracles.</p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>6:18 PM</time>
+                    <time>9/22/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="https://twitter.com/paszabiceps" data-href="/en/pulse/modal/1390" title="pashafaace"><img src="https://svirtus.cdnvideo.ru/nXyEr60PRTLPd6CAkj7W-4F1XOo=/0x0:768x1024/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/b3/b347c3bda36be4def7f0e2c94eed856f.jpg?m=485b31117f9668d057550f9598291aa0" alt="pashafaace"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--vkontakte">
+
+            <header class="pulse__header">
+                <a href="https://vk.com/lil" class="pulse__name" target="_blank">Lil</a>
+                <div class="pulse__date">
+                    <time>3:37 PM</time>
+                    <time>9/22/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="https://vk.com/lil" data-href="/en/pulse/modal/1386" title="Noone, Lil and ArtStyle will represent the Ukrainian team at WESG 2017!"><img src="https://svirtus.cdnvideo.ru/qvFmGLBB0g-jo-UofRjAVOHRLjg=/0x0:960x960/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/c3/c3df34b713e445ba69a516d7135ca50f.jpg?m=dc36bf680bd3cab4ace2c52c0979b73d" alt="Noone, Lil and ArtStyle will represent the Ukrainian team at WESG 2017!"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--facebook">
+
+            <header class="pulse__header">
+                <a href="https://www.facebook.com/officialbyali" class="pulse__name" target="_blank">byali</a>
+                <div class="pulse__date">
+                    <time>8:18 PM</time>
+                    <time>9/20/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--image">
+                    <div class="embed-responsive embed-responsive-2by3">
+                        <a href="https://www.facebook.com/officialbyali" data-href="/en/pulse/modal/1379" title="Although with media day I can cue some pics"><img src="https://svirtus.cdnvideo.ru/kLf-tY5Wfi5jjscEatsb73ODrqk=/0x0:960x960/350x234/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/3d/3d15c08165e8ad5882d8773adf7d3619.jpg?m=057fa4a069eac0c6e7816f450df73f16" alt="Although with media day I can cue some pics"></a>
+                    </div>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--facebook">
+
+            <header class="pulse__header">
+                <a href="https://www.facebook.com/snaxfz" class="pulse__name" target="_blank">Snax</a>
+                <div class="pulse__date">
+                    <time>5:38 PM</time>
+                    <time>9/20/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p>Just to be clear on my post yesterday that many people have read via Facebook Translate and might have got it wrong as it was published in Polish. It's been a difficult period for me and for our team and I was emotional. I hope we'll all improve and get back on track.</p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--twitter">
+
+            <header class="pulse__header">
+                <a href="https://twitter.com/paszabiceps" class="pulse__name" target="_blank">pashaBiceps</a>
+                <div class="pulse__date">
+                    <time>4:52 PM</time>
+                    <time>9/20/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><twitterwidget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-7" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="910519099926700032"></twitterwidget>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+                                
+    <li class="pulse__post pulse__post--instagram">
+
+            <header class="pulse__header">
+                <a href="https://www.instagram.com/neo_fk/" class="pulse__name" target="_blank">NEO</a>
+                <div class="pulse__date">
+                    <time>5:59 PM</time>
+                    <time>9/19/17</time>
+                </div>
+            </header>
+                            <section class="pulse__content pulse__content--text">
+                    <p></p><iframe class="instagram-media instagram-media-rendered" id="instagram-embed-2" src="https://www.instagram.com/p/BZOkxpNF6yg/embed/captioned/?cr=1&amp;v=7&amp;wp=282#%7B%22ci%22%3A2%2C%22os%22%3A957.3050000000001%7D" allowtransparency="true" frameborder="0" height="528" data-instgrm-payload-id="instagram-media-payload-2" scrolling="no" style="background: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); margin: 1px 1px 12px; max-width: 658px; width: calc(100% - 2px); border-radius: 4px; box-shadow: none; display: block; padding: 0px;"></iframe>
+<p></p>
+<script type="text/javascript">
+(function () {
+    function asyncLoad(src, callback, expr)
+    {
+        if (expr) {
+            callback();
+        } else {
+            var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            o.src = src;
+
+            o.addEventListener('load', function () { callback(); }, false);
+
+            s.parentNode.insertBefore(o, s);
+        }
+    }
+
+    asyncLoad(
+        'https://platform.instagram.com/en_US/embeds.js',
+        function () {
+            window.instgrm.Embeds.process();
+        },
+        !!window.instgrm
+    );
+
+    asyncLoad(
+        'https://platform.twitter.com/widgets.js',
+        function () {
+            window.twttr.widgets.load();
+        },
+        !!window.twttr
+    );
+    
+    asyncLoad(
+        'https://cdn.playbuzz.com/widget/feed.js',
+        function () {
+            
+        },
+        !!window.PlayBuzz
+    );
+    
+    asyncLoad(
+        'https://static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js',
+        function () {
+            
+        },
+        !!window.APESTER
+    );
+    
+    asyncLoad(
+        'https://wtrfall.com/widget.js',
+        function () {
+            if (!window.WTF || !WTF.bootstrap || !WTF.bootstrap("wtf-broadcast")) {
+                setTimeout(arguments.callee, 50);
+            }
+        },
+        !!window.WTF
+    );
+})();
+</script>
+                </section>
+                </li>
+
+        </ul>
+        
+<a href="#" data-list-href="/en/pulse/widget/2/20" class="panel panel--link sys-list-show-more-button">
+    <span class="link-more">More</span>
+</a>
+
+    </div>
+
+                            </div>
+        </aside>
+    </div>
+                </main>
+
+                <footer id="footer" class="footer">
+                                        <header class="footer__header">
+                        <article class="partners partners--footer">
+    <ul class="partners__list">
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=g2a_general&amp;utm_medium=footer&amp;goto=https://www.g2a.com/r/in-game-items-vp" target="_blank">
+                <img class="bw-footer" src="https://svirtus.cdnvideo.ru/q9zMgUBKT0-a7Pi8gjHS6Am0W0o=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/3b/3b69899bc13699e6e44d86528187b092.png" alt="G2A.COM">
+                <img class="original-footer" src="https://svirtus.cdnvideo.ru/13C5p7W597QZe4IjcL5MLcIDY4I=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/53/53571c72510ceb86f20cd3fe43f8272d.png" alt="G2A.COM">
+            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=mediamarkt_general&amp;utm_medium=footer&amp;goto=https://ad.doubleclick.net/ddm/trackclk/N39402.3009020EPICENTER/B20051405.200862110;dc_trk_aid=400778201;dc_trk_cid=90521675;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=" target="_blank">
+                <img class="bw-footer" src="https://svirtus.cdnvideo.ru/yszPUJbcrpVjdsVzSo-qJ8_te9Y=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/57/57a8360299f18c33b1a15c1f1fb20f49.png" alt="MediaMarkt">
+                <img class="original-footer" src="https://svirtus.cdnvideo.ru/wEcqzlo-jyTR_s9lf260s1eLDxM=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/a6/a686ff35f00fc3a80d49812970d34072.png" alt="MediaMarkt">
+            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=adrenaline_general&amp;utm_medium=footer&amp;goto=https://adrenalinerush.ru/" target="_blank">
+                <img class="bw-footer" src="https://svirtus.cdnvideo.ru/oClcarQ82rRLNtY8DFjjEVVOpao=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/70/70080887bb1a2797dc2d10be03b534da.png" alt="Adrenaline Rush">
+                <img class="original-footer" src="https://svirtus.cdnvideo.ru/C0oHZ3uUtHfZDBbUbCMo93Bxgcc=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/c5/c59289d98de5425ef2e0c3448584c353.png" alt="Adrenaline Rush">
+            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://virtus.pro/en/tracker/ads?utm_source=website&amp;utm_campaign=mrcat_general&amp;utm_medium=footer&amp;goto=http://mrcat.com/" target="_blank">
+                <img class="bw-footer" src="https://svirtus.cdnvideo.ru/x4ePQAe-oxg6L69V615NqzSfCc8=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/a0/a07478596b0530a71b2ad8fdaca2eae9.png" alt="Mr.Cat">
+                <img class="original-footer" src="https://svirtus.cdnvideo.ru/3tsKwzHmivVY-x1bzVThOb5tGxE=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/2b/2b26b8ed362b89fa5b0f5ab86c461563.png" alt="Mr.Cat">
+            </a>
+        </li>
+                <li class="partners__item">
+            <a href="http://www.fragstore.ru/" target="_blank">
+                <img class="bw-footer" src="https://svirtus.cdnvideo.ru/_R9MK1V8tpiWby8gZOUlErvn4Sw=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/42/42a5ffc21116103e5ede3c571fede6e8.png" alt="Fragstore">
+                <img class="original-footer" src="https://svirtus.cdnvideo.ru/_zITfkxfcjbzLxaJGhpDMr3aufY=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/fa/fa92b20d2a4e4c893725ebe4ec1365a5.png" alt="Fragstore">
+            </a>
+        </li>
+                <li class="partners__item">
+            <a href="https://www.twitch.tv/" target="_blank">
+                <img class="bw-footer" src="https://svirtus.cdnvideo.ru/XWshBdZRyTDfk6I6byD6uTR9EXY=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/aa/aaf65bf46568c5c31c94de30b0373645.png" alt="Twitch">
+                <img class="original-footer" src="https://svirtus.cdnvideo.ru/Jb7pF5pJmFTPy0cArKV0N-hdZ0c=/fit-in/500x500/filters:quality(90)/https://s3.eu-central-1.amazonaws.com/esforce-media/ec/ec18b4845231d186557611531d6dffd8.png" alt="Twitch">
+            </a>
+        </li>
+            </ul>
+</article>
+                    </header>
+                                        <section class="footer__main">
+                        <article class="logo">
+                            <a href="/en/">
+                                <img src="/assets/img/png/logos/logo.png?v=bcc9fe0980b558b2018c7998de2573b5" alt="Virtus.pro">
+                            </a>
+                        </article>
+                        <div class="footer__content">
+                            <nav class="footer__menu">
+                                <ul class="menu--footer">
+                                    <li class="menu__item">
+                                        <a href="/en/news">News</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="/en/matches">Matches</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="/en/team">Team</a>
+                                    </li>
+                                    <li class="menu__item hidden--mobile">
+                                        <a href="/en/shop">Store</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="/en/video">Video</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="/en/partners">Partners</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="/en/awards">Achievments</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="/en/contacts">Contacts</a>
+                                    </li>
+                                </ul>
+                                <ul class="social social--footer">
+                                                                        <li class="social__item social__item--in">
+                                        <a href="https://www.instagram.com/virtus.pro" target="_blank"></a>
+                                    </li>
+                                    <li class="social__item social__item--yt">
+                                        <a href="https://www.youtube.com/c/TeamVirtusproOfficial" target="_blank"></a>
+                                    </li>
+                                    <li class="social__item social__item--fb">
+                                        <a href="https://www.facebook.com/www.virtus.pro/" target="_blank"></a>
+                                    </li>
+                                    <li class="social__item social__item--tw">
+                                        <a href="https://twitter.com/Virtuspro" target="_blank"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <article class="copyrights">
+                                <p>
+                                    © 2003 — 2017 VIRTUS.PRO
+                                    <span>Copying without a hyperlink to our website is not allowed</span>
+                                </p>
+                                <div id="rating">
+                                    <div id="kraken">
+                                        <!-- Top100 (Kraken) Widget -->
+                                        <span id="top100_widget"><a href="https://top100.rambler.ru/home?id=4459615" target="_blank"><img src="https://kraken.rambler.ru/cnt/?et=pv&amp;pid=4459615&amp;rid=1507208540.67-1089508957&amp;v=1.5.0&amp;rn=957161033&amp;bs=1920x949&amp;ce=1&amp;rf=https%3A%2F%2Fvirtus.pro%2Fpl%2F&amp;en=UTF-8&amp;pt=Virtus.pro&amp;sr=1920x1080&amp;cd=24-bit&amp;la=en-US&amp;ja=0&amp;acn=Mozilla&amp;an=Netscape&amp;pl=Win32&amp;tz=-120&amp;fv&amp;sv&amp;lv=1507201335195%3A%3A1507208535195&amp;le=0" title="Rambler's Top100" alt="Rambler's Top100" border="0"></a></span>
+                                        <!-- END Top100 (Kraken) Widget -->
+
+                                        <!-- Top100 (Kraken) Counter -->
+                                        <script>
+                                            (function (w, d, c) {
+                                                (w[c] = w[c] || []).push(function() {
+                                                    var options = {
+                                                        project: 4459615,
+                                                        element: 'top100_widget'
+                                                    };
+                                                    try {
+                                                        w.top100Counter = new top100(options);
+                                                    } catch(e) { }
+                                                });
+                                                var n = d.getElementsByTagName("script")[0],
+                                                        s = d.createElement("script"),
+                                                        f = function () { n.parentNode.insertBefore(s, n); };
+                                                s.type = "text/javascript";
+                                                s.async = true;
+                                                s.src =
+                                                        (d.location.protocol == "https:" ? "https:" : "http:") +
+                                                        "//st.top100.ru/top100/top100.js";
+
+                                                if (w.opera == "[object Opera]") {
+                                                    d.addEventListener("DOMContentLoaded", f, false);
+                                                } else { f(); }
+                                            })(window, document, "_top100q");
+                                        </script>
+                                        <noscript>&lt;img src="//counter.rambler.ru/top100.cnt?pid=4459615"&gt;</noscript>
+                                        <!-- END Top100 (Kraken) Counter -->
+                                    </div>
+                                    <div id="mailru">
+                                        <!-- Rating@Mail.ru counter -->
+                                        <script type="text/javascript">
+                                            var _tmr = window._tmr || (window._tmr = []);
+                                            _tmr.push({id: "2848284", type: "pageView", start: (new Date()).getTime()});
+                                            (function (d, w, id) {
+                                                if (d.getElementById(id)) return;
+                                                var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+                                                ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+                                                var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+                                                if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+                                            })(document, window, "topmailru-code");
+                                        </script><noscript>&lt;div style="position:absolute;left:-10000px;"&gt;
+                                                &lt;img src="//top-fwz1.mail.ru/counter?id=2848284;js=na" style="border:0;" height="1" width="1" alt="Ðåéòèíã@Mail.ru" /&gt;
+                                            &lt;/div&gt;</noscript>
+                                        <!-- //Rating@Mail.ru counter -->
+
+                                        <!-- Rating@Mail.ru logo -->
+                                        <a href="http://top.mail.ru/jump?from=2848284" target="_blank">
+                                            <img src="//top-fwz1.mail.ru/counter?id=2848284;t=396;l=1" style="border:0;" height="31" width="88" alt="Ðåéòèíã@Mail.ru"></a>
+                                        <!-- //Rating@Mail.ru logo -->
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </footer>
+            </div>
+        </div><iframe id="google_osd_static_frame_9471474928838" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe>
+
+        <div class="modal fade" id="modal" tabindex="-2"></div>
+    
+
+    <link href="/assets/vendor/fancyBox/source/jquery.fancybox.css?v=6c55951ce1e3115711f63f99b7501f3a" rel="stylesheet">
+    <link href="/assets/vendor/fancyBox/source/helpers/jquery.fancybox-thumbs.css?v=52ddd84a9f42c1d4cd86d518a7f7e8bc" rel="stylesheet">
+    <link href="/assets/vendor/flag-icon-css/css/flag-icon.min.css?v=30b7e73df6634bc075fea5edd5191583" rel="stylesheet">
+
+    <script type="text/javascript" src="/assets/vendor/hinclude/hinclude.js?v=65efea4491d37fbcf5ebf4745307f0fe"></script>
+    <script type="text/javascript" src="/assets/vendor/jquery/dist/jquery.min.js?v=2f6b11a7e914718e0290410e85366fe9"></script>
+    <script type="text/javascript" src="/assets/vendor/owl.carousel/dist/owl.carousel.min.js?v=6473747d818f47587036ccde48050d82"></script>
+    <script type="text/javascript" src="/assets/vendor/bootstrap/dist/js/bootstrap.js?v=fb81549ee2896513a1ed5714b1b1a0f0"></script>
+    <script type="text/javascript" src="/assets/vendor/fancyBox/source/jquery.fancybox.pack.js?v=cc9e759f24ba773aeef8a131889d3728"></script>
+    <script type="text/javascript" src="/assets/vendor/fancyBox/source/helpers/jquery.fancybox-media.js?v=c017067f48d97ec4a077ccdf056e6a2e"></script>
+    <script type="text/javascript" src="/assets/vendor/fancyBox/source/helpers/jquery.fancybox-thumbs.js?v=cf1fc1df534eede4cb460c5cbd71aba6"></script>
+    <script type="text/javascript" src="/assets/vendor/lodash/dist/lodash.min.js?v=c8515f131f3194c32a3670c8e274fab6"></script>
+    <script type="text/javascript" src="/assets/js/app.min.js?v=01fd18678d2f42df6820574bc42eb05c"></script>
+
+        <style type="text/css">
+        .sys-index-page-pulse-container .sys-list-show-more-button {display: none}
     </style>
-  </head>
-  <body>
-    <div class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 20px">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="brand" href="javascript:void 0"><img src="paintschainer-64.png" width="32"> PaintsChainer</a>
-          <ul class="nav">
-            <li class="active"><a href="javascript:void 0">Home</a></li>
-            <li><a href="http://paintschainer.preferred.tech/downloads/" target="_blank">Downloads</a></li>
-            <li><a href="http://github.com/taizan/PaintsChainer" target="_blank">GitHub</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span12">
-          <div class="well text-center">
-            <p>
-              <i class="icon-picture"></i> Set sketch: <input id="load_line_file" type="file">
-              <button id="submit" class="btn btn-large btn-primary" disabled><i class="icon-edit icon-white"></i> Colorize</button>
-              <span id="painting_status" style="display:none"></span>
-            </p>
-            <p>
-              Powered by <a href="https://www.sakura.ad.jp/koukaryoku/" target="_blank"><img src="koukaryoku-64.png" width="32">高火力コンピューティング</a>,
-              <a href="http://chainer.org/" target="_blank"><img src="chainer-64.png" width="32">Chainer</a>.
-            </p>
-          </div>
-          <div style="display:none">
-            <label>blur_k<input id="blur_k" type="number" name="blur"></label>
-          </div>
-        </div>
-      </div>
+<script>
+    $(function() {
+        if ($('.slider-important-news').length) {
+            $('.carousel-inner > .item:first-child').addClass('active');
 
-      <div id="img_pane" class="row-fluid" style="display:none">
-        <div class="span6">
-          <div id="wPaint" style="position:relative; background-color:rgba(0,0,255,0); width:512px; height:512px; margin:2px; border:solid 1px">
-            <img id="background" style="max-width:512px; max-height:512px">
-          </div>
-        </div>
-        <div class="span6" style="margin-left:30px">
-          <img id="output" style="display:none; max-width:512px; max-height:512px; margin:2px; border:solid 1px">
-        </div>
-      </div>
+            $("#slides").carousel({
+                interval: 5000
+            })
+            .swiperight(function() {
+                $(this).carousel('prev');
+            })
+            .swipeleft(function() {
+                $(this).carousel('next');
+            });
+        }
 
-      <div class="row-fluid">
-        <div class="span6">
-          <ol>
-            <li>Select line drawing image<br>(gif &amp; png with a ch is not supported)</li>
-            <li>Add hint information using color pen in left image</li>
-            <li>Click the 'colorize' button</li>
-          </ol>
-        </div>
-        <div class="span6">
-          <a class="twitter-timeline" href="https://twitter.com/hashtag/PaintsChainer" data-widget-id="826017928868818945">#PaintsChainer</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-      </div>
-    </div>
+        // TEAMVP-104
+                    var $window = $(window);
+            var $document = $(document);
+            var $mainContent = $('#main_content');
+            var $pulseBlock = $('.sys-index-page-pulse-container');
+            var $pulseList = $pulseBlock.find('.sys-list-container');
+            var $miscBlock = $('.sys-index-page-side-misc');
 
-    <script>
-     if (location.hostname === 'paintschainer.preferred.tech') {
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-       ga('create', 'UA-91036510-1', 'auto');
-       ga('send', 'pageview');
-     }
-    </script>
-  </body>
-</html>
+            var setPulseHeight = (function () {
+                $pulseList.height($mainContent.height() - $miscBlock.height() - $pulseBlock.height() + $pulseList.height() - 5);
+            });
+
+            setPulseHeight();
+            setTimeout(setPulseHeight, 200);
+
+            $document.bind("ajaxComplete", function() {
+                setTimeout(function () {
+                    setPulseHeight();
+
+                    $pulseList.scroll();
+                }, 50);
+            });
+
+            $window.bind('resize', _.throttle(setPulseHeight, 300));
+
+            $pulseList.bind('scroll resize', _.throttle(function () {
+                var innerHeight = 0;
+
+                $pulseList.find('>li').each(function () {
+                    innerHeight += $(this).height();
+                });
+
+                if (innerHeight < ($pulseList.height() + $pulseList.scrollTop() + 200)) {
+                    $pulseBlock.find('.sys-list-show-more-button').click();
+                }
+            }, 200));
+            });
+</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+            <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-22666504-5', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter41744819 = new Ya.Metrika({
+                            id:41744819,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript>&lt;div&gt;&lt;img src="https://mc.yandex.ru/watch/41744819" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
+        <!-- /Yandex.Metrika counter -->
+
+        <!-- BigData counter -->
+        <script type="text/javascript" charset="UTF-8">
+            (function() {
+                var counter = document.createElement('script');
+                counter.charset = "UTF-8";
+                counter.type = 'text/javascript';
+                counter.async = true;
+                counter.src = 'https://counter-analytics.esforce.net/public/counter.js';
+                window.resourсeId = 3;
+                window.resourceUserId = null;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(counter);
+            })();
+        </script>
+        <!-- /BigData counter -->
+
+
+        <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=X7FA*W0NX28yjUDhM0kWZ1vRBeHWTh5I1lv4WwJ68hgB8ir0yqKU*/gs*NgZ3a533K8123ArVngWgDs4Z3gjJWSguDZVN4I*0KUcS7cmO7nKdRYW3ObnVtVuHMrAFZXWOE0SZMFkNVcPfvxJ/Hj9Z1breyDcdhUuG9kQnImquwI-&pixel_id=1000074773';</script>
+        <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=KDk0gh4CDCbH3D/E6Cl8YplX0fiKlNJ3uDogj5FYkP0U6xitFxK5*21rUj16oE0ZOEYgJjAXJANR4HS9DNrC7oO63x6TCAw7wMBH8hXY4fvtl*hqwad2uXureh74MUilgfaTuy9vRxaJXjE94FcT1tgJkbG1hG8RS54Y*QTYfXI-&pixel_id=1000074774';</script>
+
+    
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
